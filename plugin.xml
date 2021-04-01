@@ -106,5 +106,9 @@
         <header-file src="src/ios/APPingModule.h" />
         <source-file src="src/ios/APPingModule.m" />
 
+        <framework src="libc++abi.tbd" />
+        <framework src="libc++.tbd" />
+        <framework src="libc++.1.tbd" />
+
     </platform>
 </plugin>
